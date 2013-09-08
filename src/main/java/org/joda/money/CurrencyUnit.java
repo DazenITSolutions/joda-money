@@ -655,5 +655,4 @@ public final class CurrencyUnit implements Comparable<CurrencyUnit>, Serializabl
         public String toString() {
                 return code;
         }
-
 }
