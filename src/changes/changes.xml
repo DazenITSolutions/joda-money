@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<document>
+  <properties>
+    <title>Changes</title>
+    <author>Stephen Colebourne</author>
+  </properties>
+  <body>
+
+    <!-- types are add, fix, remove, update -->
+    <release version="0.9.1" date="xxxx-xx-xx" description="v0.9.1">
+      <action dev="scolebourne" type="add" >
+        Home page at GitHub.
+      </action>
+    </release>
+    <release version="0.9" date="2013-06-28" description="Version 0.9">
+      <action dev="scolebourne" type="add">
+        New option for grouping only before the decimal point [16]
+      </action>
+      <action dev="scolebourne" type="add">
+        Allow registration of currencies to override existing [24]
+      </action>
+      <action dev="scolebourne" type="add">
+        Allow registration of currencies by application code [17]
+      </action>
+      <action dev="scolebourne" type="update" >
+        Change to use m2e Maven Eclipse.
+      </action>
+      <action dev="gabrielbauman" type="add">
+        Allow config file to support same range of values accepted by code [18/19/21]
+      </action>
+    </release>
+    <release version="0.8" date="2013-01-30" description="Version 0.8">
+      <action dev="scolebourne" type="update" >
+        Change to requiring JDK 1.6.
+      </action>
+      <action dev="timmolter" type="add">
+        Allow a second currency data file to enhance those in the base file [9,13]
+      </action>              
+    </release>
+    <release version="0.7" date="2013-01-03" description="Version 0.7">
+      <action dev="scolebourne" type="fix">
+        Fix printing of grouped negative numbers [10]
+      </action>              
+      <action dev="scolebourne" type="fix">
+        Change LBP currency to 2dp [7]
+      </action>              
+      <action dev="scolebourne" type="update">
+        Relax checking for decimal places
+      </action>              
+      <action dev="scolebourne" type="fix">
+        Move Estonia to the Euro [2]
+      </action>              
+      <action dev="scolebourne" type="add">
+        Add old Russian currency [1]
+      </action>              
+    </release>
+    <release version="0.6" date="2011-08-01" description="Version 0.6">
+      <action dev="scolebourne" type="add">
+        Major updates and changes.
+      </action>              
+    </release>
+    <release version="0.5" date="2009-11-16" description="Initial version">
+      <action dev="scolebourne" type="add">
+        Initial version.
+      </action>              
+    </release>
+
+  </body>
+</document>
